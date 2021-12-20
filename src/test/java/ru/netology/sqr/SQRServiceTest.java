@@ -1,5 +1,5 @@
-package ru.netology.sqr;
 
+package ru.netology.sqr;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

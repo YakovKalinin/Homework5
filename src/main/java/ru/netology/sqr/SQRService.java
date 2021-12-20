@@ -8,9 +8,7 @@ public class SQRService {
             if (i * i <= top && i * i >= bottom) {
                 count++;
             }
-            return count;
         }
-        return 0;
-
+        return count;
     }
 }
