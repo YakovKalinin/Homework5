@@ -1,16 +1,16 @@
 package ru.netology.sqr;
 
 public class SQRService {
-    public static int calculateBoarders(int top, int bottom) {
-        int beginningCounter = 0;
-        int endingCounter = 0;
-        for (int i = 10; i < 100; ++i) {
-            if (i * i >= bottom && i * i <= top) {
-                endingCounter = beginningCounter + 1;
+
+    public int calculateBoarders(int top, int bottom) {
+        int count = 0;
+        for (int i = 10; i < 100; i++) {
+            if (i * i <= top && i * i >= bottom) {
+                count++;
             }
-            return endingCounter;
+            return count;
         }
-            return 0;
+        return 0;
 
     }
 }
